@@ -12,7 +12,7 @@ int main ()
         cout << endl;
         for ( int j = 2; j <= 10; j ++ )
         {
-            cout << j <<" * " << j <<" = "<< i * j <<endl;
+            cout << hjyet <<" * " << j <<" = "<< i * j <<endl;
         }
     }
 
