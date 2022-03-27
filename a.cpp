@@ -1,19 +1,20 @@
 #include<iostream>
 #include<cmath>
-#include <algorithm>
 using namespace std;
-
 int main ()
 {
-    int a,b;
-    cin >> a;
-    for ( int i = 1; i <= a; i ++ )
+    int kol;
+    cout<<"Input a number: ";
+    cin>>kol;
+
+    for(int i = 1; i <= kol; i++)
     {
-        cout << endl;
-        for ( int j = 2; j <= 10; j ++ )
-        {
-            cout << hjyet <<" * " << j <<" = "<< i * j <<endl;
+    cout<<"Multiplication: "<<i<<endl;
+        for(int k = 1; k <= 10; k++){
+            cout<<i<<"*"<<k<<"="<<i*k<<endl;
         }
+        cout<<endl;
     }
+
 
 }
