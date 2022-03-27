@@ -10,7 +10,7 @@ int main ()
     for ( int i = 1; i <= a; i ++ )
     {
         cout << endl;
-        for ( int j = 1; j <= 10; j ++ )
+        for ( int j = 2; j <= 10; j ++ )
         {
             cout << i <<" * " << j <<" = "<< i * j <<endl;
         }
